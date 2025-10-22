@@ -16,12 +16,12 @@ def check_number():
     return jsonify({
         "number": number,
         "status": status,
-        "message": f"{number} is {status} on WhatsApp"
+        "message": f"{number} is {status} on WhatsApp🤖"
     })
 
 @app.route("/")
 def home():
-    return "✅ DAX Ban-Checker API is live"
+    return "✅ DAX Ban-Checker API is alive but go use the api now 👀🥲"
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
