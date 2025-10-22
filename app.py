@@ -16,7 +16,7 @@ def check_number():
     return jsonify({
         "number": number,
         "status": status,
-        "message": f"{number} is {status} on WhatsApp🤖"
+        "message": f"{number} is {status} on WhatsApp"
     })
 
 @app.route("/")
